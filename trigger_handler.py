@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 
 # Configuration:
-LPT_INTERFACE = 0xD050 # Address of the paralell port interface
+LPT_INTERFACE = 03FDF # Address of the paralell port interface
 HOST = '127.0.0.1' # Defaul is localhost
 PORT = 8000 
 
